@@ -3,8 +3,8 @@ package detect
 import (
 	"github.com/gitleaks/go-gitdiff/gitdiff"
 	"github.com/rs/zerolog/log"
-	"github.com/zricethezav/gitleaks/v8/report"
-	"github.com/zricethezav/gitleaks/v8/sources"
+	"github.com/startupsecurity/gitleaks/v8/report"
+	"github.com/startupsecurity/gitleaks/v8/sources"
 )
 
 func (d *Detector) DetectGit(gitCmd *sources.GitCmd) ([]report.Finding, error) {

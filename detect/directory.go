@@ -7,8 +7,8 @@ import (
 
 	"github.com/h2non/filetype"
 	"github.com/rs/zerolog/log"
-	"github.com/zricethezav/gitleaks/v8/report"
-	"github.com/zricethezav/gitleaks/v8/sources"
+	"github.com/startupsecurity/gitleaks/v8/report"
+	"github.com/startupsecurity/gitleaks/v8/sources"
 )
 
 func (d *Detector) DetectFiles(paths <-chan sources.ScanTarget) ([]report.Finding, error) {

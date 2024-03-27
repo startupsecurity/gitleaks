@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zricethezav/gitleaks/v8/config"
-	"github.com/zricethezav/gitleaks/v8/report"
+	"github.com/startupsecurity/gitleaks/v8/config"
+	"github.com/startupsecurity/gitleaks/v8/report"
 
 	ahocorasick "github.com/BobuSumisu/aho-corasick"
 	"github.com/fatih/semgroup"

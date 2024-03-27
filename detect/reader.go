@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"io"
 
-	"github.com/zricethezav/gitleaks/v8/report"
+	"github.com/startupsecurity/gitleaks/v8/report"
 )
 
 // DetectReader accepts an io.Reader and a buffer size for the reader in KB

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zricethezav/gitleaks/v8/config"
+	"github.com/startupsecurity/gitleaks/v8/config"
 )
 
 const (
