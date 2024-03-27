@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/zricethezav/gitleaks/v8/cmd/generate/secrets"
-	"github.com/zricethezav/gitleaks/v8/config"
+	"github.com/startupsecurity/gitleaks/v8/cmd/generate/secrets"
+	"github.com/startupsecurity/gitleaks/v8/config"
 )
 
 // Reference: https://huggingface.co/docs/hub/security-tokens

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/zricethezav/gitleaks/v8/cmd/generate/secrets"
-	"github.com/zricethezav/gitleaks/v8/config"
+	"github.com/startupsecurity/gitleaks/v8/cmd/generate/secrets"
+	"github.com/startupsecurity/gitleaks/v8/config"
 )
 
 // https://api.slack.com/authentication/token-types#bot

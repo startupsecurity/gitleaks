@@ -7,8 +7,8 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/zricethezav/gitleaks/v8/report"
-	"github.com/zricethezav/gitleaks/v8/sources"
+	"github.com/startupsecurity/gitleaks/v8/report"
+	"github.com/startupsecurity/gitleaks/v8/sources"
 )
 
 func init() {

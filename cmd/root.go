@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/zricethezav/gitleaks/v8/config"
-	"github.com/zricethezav/gitleaks/v8/detect"
-	"github.com/zricethezav/gitleaks/v8/report"
+	"github.com/startupsecurity/gitleaks/v8/config"
+	"github.com/startupsecurity/gitleaks/v8/detect"
+	"github.com/startupsecurity/gitleaks/v8/report"
 )
 
 const banner = `
